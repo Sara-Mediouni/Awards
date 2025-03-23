@@ -20,7 +20,7 @@ body{
     }
     @font-face {
         font-family: 'general';
-        src: url('/fonts.general.woff2') format('woff2');
+        src: url('/fonts/general.woff2') format('woff2');
     }
     @font-face {
         font-family: 'robert-medium';
