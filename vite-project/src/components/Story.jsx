@@ -62,7 +62,7 @@ const Story = () => {
           />
           <div className="story-img-container">
             <div className="story-img-mask">
-              <div className="story-img-content"></div>
+              <div className="story-img-content">
             <img
             ref={frameRef}
             onMouseMove={handleMouseMove}
@@ -71,10 +71,10 @@ const Story = () => {
                   onMouseEnter={handleMouseLeave}
             src="/img/entrance.webp"
             alt="entrance"
-            className="object-container"
+            className="object-contai"
             />
             
-            
+            </div>
             </div>
            <RoundedCorners/>
           </div>
